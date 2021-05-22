@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid button {
+    border: none;
+    border-radius: 10px;
+    background: #333;
+    position: relative;
+    cursor: pointer;
+}
+
+.grid button::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 5px;
+}
+
+.grid button.active {
+    background: coral;
+}
