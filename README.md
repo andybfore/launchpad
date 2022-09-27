@@ -10,13 +10,13 @@ A little vanilla music launchpad to play different drum sets using mouse click o
 ## Sets
 | Keyboard    | Sound         |
 | ----------- | ------------- |
-| <kbd>Q</kbd>| Hi hat close 1|
-| <kbd>W</kbd>| Hi hat open   |
-| <kbd>E</kbd>| Hi hat close 2|
-| <kbd>A</kbd>| Snare         |
+| <kbd>Q</kbd>| Hi hats 1     |
+| <kbd>W</kbd>| Hi hats 2     |
+| <kbd>E</kbd>| Hat 1         |
+| <kbd>A</kbd>| Snare 1       |
 | <kbd>S</kbd>| Snare 2       |
 | <kbd>D</kbd>| Clap          |
-| <kbd><</kbd>| Kick          |
+| <kbd><</kbd>| Kick 1        |
 | <kbd>Z</kbd>| Kick 2        |
 | <kbd>X</kbd>| Kick 3        |
 

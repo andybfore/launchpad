@@ -19,6 +19,7 @@ class Launchpad {
     createButtons() {
         this.launchset.forEach((set, i) => {
             let button = document.createElement('button');
+            button.innerText = set.key;
             this.grid.append(button);
 
             let audio = new Audio(this.soundsFolder + '/' + set.name + '.wav');
