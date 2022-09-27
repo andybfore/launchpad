@@ -5,7 +5,7 @@
 <br/>
 
 ## Introduction
-A little vanilla javascript launchpad to play different drum sets using mouse click or keyboard press.
+A little vanilla music launchpad to play different drum sets using mouse click or keyboard press.
 
 ## Sets
 | Keyboard    | Sound         |
